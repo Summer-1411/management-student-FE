@@ -1,0 +1,44 @@
+.wrapper-login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+
+  .container-login {
+    background-color: white;
+    padding: 30px;
+  }
+
+  .ant-card-cover {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 8px 8px;
+      object-fit: cover;
+      text-align: center;
+    }
+  }
+
+  .ant-card-meta-detail {
+    margin-bottom: 30px;
+    .ant-card-meta-title {
+      color: rgba(0, 0, 0, 0.88);
+      font-weight: 600;
+      font-size: 18px;
+      overflow: hidden;
+      text-align: center;
+    }
+    .ant-card-meta-description {
+      color: rgba(36, 36, 36, 0.88);
+      font-weight: 600;
+      font-size: 14px;
+      overflow: hidden;
+      text-align: center;
+    }
+  }
+
+}
